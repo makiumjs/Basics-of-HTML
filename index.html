@@ -5,408 +5,472 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 </head>
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand text-center animate-charcter" href="#">   
+            <img src="./logo-2582748_1280.png" alt="" width="200" height="200" class="d-inline-block align-text-center mb-5">
+            Basics of HTML
+        </a>            
+    </div>
+</nav>
+
 <body>
+    <div class="container bg ff">
+        <div class="row ">
+            <div class="col-12 col-md-4">
+                <details>
+                    <summary>
+                        <h2>1.Document Outline</h2>
+                    </summary>
+                    <ul>
+                        <li> 
+                            !DOCTYPE html> Version of HTML
+                        </li>
+                        <li>
+                            html> Type of document (HTML Document in this case)
+                        </li>
+                        <li>    
+                            head> Page information
+                        </li>
+                        <li>    
+                            body> Page contents
+                        </li>
+                    </ul>
+                </details>
+                <hr/>            
+                <details>               
+                    <summary> 
+                        <h2>2.Page information</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            base/> Base URL
+                        </li>
+                        <li> 
+                            meta/> Meta Data  
+                        </li>
+                        <li>
+                            title/> Title
+                        </li>
+                        <li>
+                            link/> Relevante Resource
+                        </li>
+                        <li>
+                            style/> Style Resource
+                        </li>
+                        <li>
+                            script> Script Resource
+                        </li>
+                    </ul>
+                </details>
+                <hr/>    
+                <details>
+                    <summary>
+                        <h2>3.Document Structure</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            h[1-6]> Heading
+                        </li>
+                        <li>
+                            div> Page Section
+                        </li>
+                        <li>
+                            span> Inline Section
+                        </li>
+                        <li>
+                            p> Paragraph
+                        </li>
+                        <li>
+                            br> Line Break
+                        </li>
+                        <li>
+                            hr/> Horizontal Rule
+                        </li>
+                    </ul>
+                </details>
+                <hr/>                      
+                <details>
+                    <summary>
+                        <h2>4.Links</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            a href=""> Page link
+                        </li>
+                        <li>
+                            a href="mailto:" Email link
+                        </li>
+                        <li>
+                            a href="#name"> Link to anchor
+                        </li>
+                        <li>
+                            a name="name" anchor
+                        </li>
+                    </ul>               
+                </details>
+                <hr/> 
+                <details> 
+                    <summary>
+                        <h2>5.Lists</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            ol> ordered list
+                        </li>
+                        <li>
+                            ul> unordered list
+                        </li>
+                        <li>
+                            li> list item
+                        </li>
+                        <li>
+                            dl> definition list
+                        </li>
+                        <li>
+                            dd> term description
+                        </li>
+                    </ul>
+                </details>
+                <hr/>    
+            
+                <details>
+                    <summary> 
+                        <h2>6.Objects</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            object> Object
+                        </li>
+                        <li>
+                            param> parameter
+                        </li>             
+                    </ul>
+                </details>
+                <hr/>
+    
+        </div>
+            <div class="col-12 col-md-4">
+                <details>
+                    <summary>
+                        <h2>7.Image & Image maps</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            img/>-- image
+                        </li>
+                        <li>
+                            map>-- image map
+                        </li>
+                        <li>
+                            area/>-- Area of image map
+                        </li>       
+                    </ul>
+                </details>
+                <hr/>                
+                <details>
+                    <summary>
+                        <h2>8.Markup</h2>
+                    </summary>                             
+                    <ul>
+                        <li>
+                            Strong> Strong Emphasis
+                        </li>
+                        <li>
+                            em> Emphasis
+                        </li>
+                        <li>
+                            blockquote>- Long quotation
+                        </li>
+                        <li>
+                            q> short quotation
+                        </li>
+                        <li>
+                            abbr>-- Abbrevation
+                        </li>
+                        <li>
+                            acronym>--- acronym
+                        </li>
+                        <li>
+                            pre>- pre-formatted text
+                        </li>
+                        <li>
+                            dfn> Definition
+                        </li>
+                        <li>
+                            code>---- code
+                        </li>
+                        <li>
+                            cite>- Citation
+                        </li>
+                        <li>
+                            del>-- Deleted Text(TESTO CANCELLATO DAL DOCUMENTO)
+                        </li>
+                        <li>
+                            ins >--- Inserted text(TESTO AGGIUNTO DOPO)
+                        </li>
+                        <li>
+                            sub>--- subscript(PEDICE)
+                        </li>
+                        <li>
+                            sup>---- supscript(APICE)
+                        </li>
+                        <li>
+                            dbo>---- Text direction
+                        </li>
+                        <li>
+                            Address> Address
+                        </li>
+                    </ul>
+                </details>
+                <hr/>
+                <details>
+                    <summary>
+                        <h2>9.Forms</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            Form> Form
+                        </li>
+                        <li>
+                            Fieldset> Collection of Fields
+                        </li>
+                        <li>
+                            legend> Form legend
+                        </li>
+                        <li>
+                            label> input label
+                        </li>
+                        <li>
+                            input/> Form input
+                        </li>
+                        <li>
+                            select> Drop-down box
+                        </li>
+                        <li>
+                            optgroup> Group of options
+                        </li>
+                        <li>
+                            option> Drop-down options
+                        </li>
+                        <li>
+                            textarea> large text input
+                        </li>
+                        <li>
+                            button> Button
+                        </li>
+                    </ul>
+            </details>
+                <hr/>
+                <details>
+                    <summary>
+                        <h2>10.Tables</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            table>-- table
+                        </li>
+                        <li>
+                            caption>-- caption
+                        </li>
+                        <li>
+                            thead>-- table header
+                        </li>
+                        <li>
+                            tbody>---- table body
+                        </li>
+                        <li>
+                            tfoot>--- table footer
+                        </li>
+                        <li>
+                            colgroup>- coloumn group
+                        </li>
+                        <li>
+                            col/>- coloumn
+                        </li>
+                        <li>
+                            tr>---- table row
+                        </li>
+                        <li>
+                            th>---- Header cell
+                        </li>
+                        <li>
+                            td> table cell
+                        </li>
+                    </ul>
+                </details>
+                <hr/>
+                <details>
+                    <summary>
+                        <h2>11.Empty Element</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            area/>-- img/>
+                        </li>
+                        <li>
+                            base/>-- input/>
+                        </li>
+                        <li>
+                            br/>-- link/>
+                        </li>
+                        <li>
+                            col/>-- meta/>
+                        </li>
+                        <li>
+                            hr/>-- param/>
+                        </li>        
+                    </ul>
+                </details>
+                <hr/>
+                <details>
+                    <summary>
+                        <h2>12.Core attributes</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            class-> style
+                        </li>
+                        <li>
+                            id-> title
+                        </li>
+                        NOTE: Core attributes may not be used in base, html, meta, param, script, style or title element 
+                    </ul>
+                </details>
+                    <hr/>
 
-<div>    
-  <h1>Basics of HTML</h1>
-  <h3>1.Document Outline</h3>      
-    <ul>
-        <li> 
-            !DOCTYPE html>----------->Version of HTML
-        </li>
-        <li>
-            html>-------------------------->Type of document (HTML Document in this case)
-        </li>
-        <li>    
-            head>-------------------------->Page information
-        </li>
-        <li>    
-            body>-------------------------->Page contents
-        </li>
-    </ul>
-</div>
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-<div>
-    <h3>2.Comments</h3>
-    <ul>
-        <li>
-            !--Comment text -->
-        </li>
-    </ul>
-</div>
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-<div>    
-    <h3>3.Page information</h3>  
-    <ul>
-        <li>
-            base/>------------------------>Base URL
-        </li>
-        <li> 
-            meta/>------------------------------>Meta Data  
-        </li>
-        <li>
-            title/>----------------------------->Title
-        </li>
-        <li>
-            link/>------------------------------>Relevante Resource
-        </li>
-        <li>
-            style/>----------------------------->Style Resource
-        </li>
-        <li>
-            script>----------------------------->Script Resource
-        </li>
-    </ul>
-</div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>4.Document Structure</h3>
-    <ul>
-        <li>
-            h[1-6]>---------------------------->Heading
-        </li>
-        <li>
-            div>------------------------------->Page Section
-        </li>
-        <li>
-            span>------------------------------->Inline Section
-        </li>
-        <li>
-            p>---------------------------------> Paragraph
-        </li>
-        <li>
-            br>-------------------------------->Line Break
-        </li>
-        <li>
-            hr/>------------------------------------>Horizontal Rule
-        </li>
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>5.Links</h3>
-    <ul>
-        <li>
-            a href="">---------------------------------->Page link
-        </li>
-        <li>
-            a href="mailto:"---------------------------->Email link
-        </li>
-        <li>
-            a href="#name">---------------------------->Link to anchor
-        </li>
-        <li>
-            a name="name"------------------------------>anchor
-        </li>
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>6.Markup</h3>
-    <ul>
-        <li>
-            Strong>-------------------------------------------->Strong Emphasis
-        </li>
-        <li>
-            em>------------------------------------------------>Emphasis
-        </li>
-        <li>
-            blockquote>---------------------------------------->Long quotation
-        </li>
-        <li>
-            q>------------------------------------------------->short quotation
-        </li>
-        <li>
-            abbr>---------------------------------------------->Abbrevation
-        </li>
-        <li>
-            acronym>----------------------------------------------->acronym
-        </li>
-        <li>
-            pre>-------------------------------------------------->pre-formatted text
-        </li>
-        <li>
-            dfn>-------------------------------------------->Definition
-        </li>
-        <li>
-            code>------------------------------------------->code
-        </li>
-        <li>
-            cite>---------------------------------------->Citation
-        </li>
-        <li>
-            del>----------------------------------------->Deleted Text(TESTO CANCELLATO DAL DOCUMENTO)
-        </li>
-        <li>
-            ins >------------------------------------------>Inserted text(TESTO AGGIUNTO DOPO)
-        </li>
-        <li>
-            sub>------------------------------------------>subscript(PEDICE)
-        </li>
-        <li>
-            sup>------------------------------------------->supscript(APICE)
-        </li>
-        <li>
-            dbo>------------------------------------------->Text direction
-        </li>
-        <li>
-            Address>--------------------------------------->Address
-        </li>
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>7.Lists</h3>
-    <ul>
-        <li>
-            ol>------------------------------->ordered list
-        </li>
-        <li>
-            ul>------------------------------->unordered list
-        </li>
-        <li>
-            li>------------------------------->list item
-        </li>
-        <li>
-            dl>--------------------------------->definition list
-        </li>
-        <li>
-            dd>-------------------------------->term description
-        </li>
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>8.Forms</h3>
-    <ul>
-        <li>
-            Form>------------------------------->Form
-        </li>
-        <li>
-            Fieldset>------------------------------->Collection of Fields
-        </li>
-        <li>
-            legend>------------------------------->Form legend
-        </li>
-        <li>
-            label>--------------------------------->input label
-        </li>
-        <li>
-            input/>-------------------------------->Form input
-        </li>
-        <li>
-            select>-------------------------------->Drop-down box
-        </li>
-        <li>
-            optgroup>------------------------------>Group of options
-        </li>
-        <li>
-            option>-------------------------------->Drop-down options
-        </li>
-        <li>
-            textarea>------------------------------>large text input
-        </li>
-        <li>
-            button>-------------------------------->Button
-        </li>
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>9.Tables</h3>
-    <ul>
-        <li>
-            table>------------------------------->table
-        </li>
-        <li>
-            caption>------------------------------->caption
-        </li>
-        <li>
-            thead>------------------------------->table header
-        </li>
-        <li>
-            tbody>--------------------------------->table body
-        </li>
-        <li>
-            tfoot>-------------------------------->table footer
-        </li>
-        <li>
-            colgroup>------------------------------>coloumn group
-        </li>
-        <li>
-            col/>----------------------------------->coloumn
-        </li>
-        <li>
-            tr>-------------------------------------->table row
-        </li>
-        <li>
-            th>-------------------------------------->Header cell
-        </li>
-        <li>
-            td>--------------------------------------->table cell
-        </li>
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>10.Image & Image maps</h3>
-    <ul>
-        <li>
-            img/>------------------------------->image
-        </li>
-        <li>
-            map>------------------------------->image map
-        </li>
-        <li>
-            area/>------------------------------->Area of image map
-        </li>       
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>11.Objects</h3>
-    <ul>
-        <li>
-            object>------------------------------->Object
-        </li>
-        <li>
-            param>------------------------------->parameter
-        </li>             
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>12.Empty Element</h3>
-    <ul>
-        <li>
-            area/>------------------------------->img/>
-        </li>
-        <li>
-            base/>------------------------------->input/>
-        </li>
-        <li>
-            br/>------------------------------->link/>
-        </li>
-        <li>
-            col/>------------------------------->meta/>
-        </li>
-        <li>
-            hr/>------------------------------->param/>
-        </li>        
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>13.Core attributes</h3>
-    <ul>
-        <li>
-            class------------------------------->style
-        </li>
-        <li>
-            id------------------------------->title
-        </li>
-    </ul>
-    NOTE: Core attributes may not be used in base, html, meta, param, script, style or title element          
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>14.Language attribute</h3>
-    <ul>
-        <li>
-            dir------------------------------>lang
-        </li>              
-    </ul>
-    Note:Language attributes may not be used in base, br, frame, frameset, hr, iframe, param, or script elements.
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>15.Keboard attributes & Events</h3>
-    <ul>
-        <li>
-            accesskey
-        </li>
-        <li>
-            tabindex
-        </li>
-        <li>
-            onkeydown
-        </li>
-        <li>
-            onkeyup
-        </li>
-        <li>
-            onkeypress
-        </li>              
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>16.Window Events</h3>
-    <ul>
-        <li>
-            onLoad
-        </li>
-        <li>
-            onUnload
-        </li>               
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>17.Form Events</h3>
-    <ul>
-        <li>
-            OnBlur
-        </li>
-        <li>
-            OnReset
-        </li>
-        <li>
-            onChange
-        </li>
-        <li>
-            onFocus
-        </li>
-        <li>
-            onSelect
-        </li>
-        <li>
-            onSubmit
-        </li>        
-    </ul>
- </div>
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
- <div>
-    <h3>18.Mouse Events</h3>
-    <ul>
-        <li>
-            onClick
-        </li>
-        <li>
-            onDbclick
-        </li>
-        <li>
-            onMouseout
-        </li>
-        <li>
-            onMouseover
-        </li>
-        <li>
-            onMousedown
-        </li>
-        <li>
-            onMouseup
-        </li>
-        <li>
-            onMousemove
-        </li>       
-    </ul>
- </div>
- <footer>
-    <div class="mt-5"></div>
- </footer>
+            </div>                  
+            <div class="col-12 col-md-4">             
+                
+                <details>
+                    <summary>
+                    <h2>13.Language attribute</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            dir- lang
+                        </li>              
+                        Note:Language attributes may not be used in base, br, frame, frameset, hr, iframe, param, or script elements.
+                    </ul>
+                </details>
+                <hr/>
+                <details>
+                    <summary> 
+                    <h2>14.Keboard attributes & Events</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            accesskey
+                        </li>
+                        <li>
+                            tabindex
+                        </li>
+                        <li>
+                            onkeydown
+                        </li>
+                        <li>
+                            onkeyup
+                        </li>
+                        <li>
+                            onkeypress
+                        </li>              
+                    </ul>
+                </details>
+                <hr/>
+                <details> 
+                    <summary>
+                    <h2>15.Window Events</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            onLoad
+                        </li>
+                        <li>
+                            onUnload
+                        </li>               
+                    </ul>
+                    
+                    <hr/>
+                </details>
+                <details>
+                    <summary>
+                    <h2>16.Form Events</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            OnBlur
+                        </li>
+                        <li>
+                            OnReset
+                        </li>
+                        <li>
+                            onChange
+                        </li>
+                        <li>
+                            onFocus
+                        </li>
+                        <li>
+                            onSelect
+                        </li>
+                        <li>
+                            onSubmit
+                        </li>        
+                    </ul>
+                </details>
+                <hr/>
+                <details>
+                    <summary>
+                    <h2>17.Mouse Events</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            onClick
+                        </li>
+                        <li>
+                            onDbclick
+                        </li>
+                        <li>
+                            onMouseout
+                        </li>
+                        <li>
+                            onMouseover
+                        </li>
+                        <li>
+                            onMousedown
+                        </li>
+                        <li>
+                            onMouseup
+                        </li>
+                        <li>
+                            onMousemove
+                        </li>       
+                    </ul>
+                    <hr/>
+                </details>
+                <details>
+                    <summary>
+                        <h2>18.Comments</h2>
+                    </summary>
+                    <ul>
+                        <li>
+                            !--Comment text -->
+                        </li>
+                    </ul>        
+                </details>    
+                <hr/>
+                
+            </div>
+        </div>
+    </div>        
+    <footer>
+        <div class="mt-5"></div>
+    </footer>
+    <script src=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
